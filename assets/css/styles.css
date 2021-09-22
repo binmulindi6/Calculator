@@ -1,0 +1,122 @@
+        @  import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body{
+            font-family: 'Urbanist', sans-serif;
+            background-color: #1234;
+            text-align: center;
+        }
+
+        #container{
+            width: 300px;
+            height: 380px;
+            padding-top: 20px;
+            margin: auto;
+            border-radius: 30px;
+            text-align: center;
+            background-color: #000;
+        }
+
+
+        #calculator{
+            margin: auto;
+
+        }
+
+		#display{
+            background-color: #000;
+            color: #fff;
+			width: 220px;
+			height: 40px;
+            font-size: 2em;
+            border: none;
+			border-radius: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: right;
+            z-index: 1;
+		}
+        .button{
+            background-color: rgb(51, 51, 51);
+            color:#fff;
+            border: none;
+            font-size: 1.3em;
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            margin: 2px;
+        }
+
+        .button:hover{
+            background-color: rgb(124, 121, 124);
+        }
+
+        .buttonC{
+            background-color: rgb(198, 202, 202);
+            border: none;
+            font-size: 1.3em;
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            margin: 2px;
+        }
+        .buttonC:hover{
+            background-color: rgb(239, 241, 241);
+        }
+
+        .buttonS{
+            background-color: rgb(255, 166, 0);
+            color: #FFF;
+            border: none;
+            font-size: 1.3em;
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            margin: 2px;
+            transition: 1s;
+        }
+        .buttonS:hover{
+            background-color: #fff;
+            color: rgb(255, 166, 0);
+        }
+        .buttonE{
+            background-color: rgb(255, 166, 0);
+            color: #FFF;
+            border: none;
+            font-size: 1.3em;
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            margin: 2px;
+        }
+        .buttonE:hover{
+            background-color: #fff;
+            color: rgb(255, 166, 0);
+        }
+
+
+        .button0{
+            background-color: rgb(51, 49, 48);
+            color: #fff;
+            border: none;
+            font-size: 1.3em;
+            height: 50px;
+            width: 100px;
+            border-radius: 50px;
+            margin-right: 10px;
+        }
+        .button0:hover{
+            background-color: rgb(124, 121, 124);
+        }
+
+        h2{
+            text-transform: uppercase;
+            font-size: 1.2em;
+        }
+        #blaz{
+          color: aqua;
+          font-size: 0.8em;
+          font-family: urbanist;
+          text-transform: lowercase;
+        }

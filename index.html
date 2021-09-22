@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+
+
+    <div id="container">
+        <div id="calculator">
+
+        <input id="display" type="text" value="0" maxlength="12"> <br>
+        <button class="buttonC"  onclick="cl('0')" > C </button>
+        <button class="buttonC"  onclick="input('$')" > $ </button>
+        <button class="buttonC"  onclick="pourcent()" > % </button>
+        <button class="buttonS"  onclick="divide()" > / </button> <br>
+        <button class="button"  onclick="input('7')" > 7 </button>
+        <button class="button"  onclick="input('8')"> 8 </button>
+        <button class="button"  onclick="input('9')" > 9 </button>
+        <button class="buttonS"  onclick="multiply()" > x </button> <br/>
+        <button class="button"  onclick="input('4')"> 4 </button>
+        <button class="button"  onclick="input('5')" > 5 </button>
+        <button class="button"  onclick="input('6')"> 6 </button>
+        <button class="buttonS"  onclick="mine()"> - </button><br/>
+        <button class="button"  onclick="input('1')"> 1 </button>
+        <button class="button"  onclick="input('2')"> 2 </button>
+        <button class="button"  onclick="input('3')"> 3 </button>
+        <button class="buttonS"  onclick="add()"> + </button><br/>
+        <button class="button0"  onclick="input('0')"> 0 </button>
+        <button class="button"  onclick="input('.')"> . </button>
+        <button class="buttonE"  onclick="egal()"> = </button>
+        </div>
+        <b id="blaz">  binmulindi6 <b>
+    </div>
+
+
+	<script src="assets/js/scripts.js">
+
+        
+	</script>
+
+
+</body>
+</html>
